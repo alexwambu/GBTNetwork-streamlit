@@ -6,7 +6,8 @@ st.set_page_config(page_title="GBTNetwork Interface", page_icon="🌐")
 st.title("🌐 GBTNetwork Dashboard")
 st.image("https://raw.githubusercontent.com/openai-user-assist/GBTNetworkAssets/main/logo.png", width=150)
 
-rpc_url = "https://gbtnetwork-backend.onrender.com"
+rpc_url = "https://gbtnetwork-render.onrender.com"
+
 
 st.markdown("### Enter your wallet address to check GBT balance:")
 address = st.text_input("Wallet Address")
